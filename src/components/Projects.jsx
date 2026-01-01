@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
-import "./Projects.css";
+import "./projects.css";
 
 const PROJECTS = [
   {
