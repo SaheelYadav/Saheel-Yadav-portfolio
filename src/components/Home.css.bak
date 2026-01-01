@@ -31,10 +31,12 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right,
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.1));
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.1)
+  );
   z-index: 1;
   pointer-events: none;
 }
@@ -223,7 +225,7 @@
 }
 
 /* ICON COLOR VAR */
-:root {
+.root {
   --cd: #000000;
 }
 
@@ -255,10 +257,12 @@
 
 /* LIGHT MODE OVERLAY TUNING */
 [data-theme="light"] .hero-bg::after {
-  background: linear-gradient(to right,
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1)
+  );
 }
 
 /* SMOOTH THEME SWITCH */
