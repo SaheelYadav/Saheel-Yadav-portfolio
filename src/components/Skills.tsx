@@ -38,18 +38,18 @@ const ROWS: SkillRow[][] = [
     {
       title: "Programming Languages",
       items: [
-        { name: "Python", level: 90 },
-        { name: "C", level: 85 },
-        { name: "Java", level: 75 },
+        { name: "Python", level: 80 },
+        { name: "C", level: 70 },
+        { name: "Java", level: 60 },
         { name: "SQL", level: 80 },
       ],
     },
     {
       title: "Web Technologies",
       items: [
-        { name: "HTML", level: 85 },
-        { name: "CSS", level: 70 },
-        { name: "JavaScript", level: 70 },
+        { name: "HTML", level: 70 },
+        { name: "CSS", level: 65},
+        { name: "JavaScript", level: 60 },
         { name: "React", level: 65 },
       ],
     },
@@ -67,7 +67,7 @@ const ROWS: SkillRow[][] = [
       items: [
         { name: "Machine Learning", level: 70 },
         { name: "Artificial Intelligence", level: 65 },
-        { name: "Deep Learning", level: 55 },
+        { name: "Deep Learning", level: 50 },
         { name: "Explainable AI (XAI)", level: 75 },
       ],
     },
@@ -75,7 +75,7 @@ const ROWS: SkillRow[][] = [
       title: "Frameworks & Tools",
       items: [
         { name: "TensorFlow", level: 30 },
-        { name: "OpenCV", level: 65 },
+        { name: "OpenCV", level: 50 },
         { name: "Git & GitHub", level: 90 },
         { name: "Jupyter Notebook", level: 95 },
         { name: "VS Code", level: 95 },
