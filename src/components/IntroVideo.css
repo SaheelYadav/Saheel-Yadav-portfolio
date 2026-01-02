@@ -42,9 +42,6 @@
   text-align: center;
   z-index: 5;
 }
-.intro-progress {
-  position: absolute;
-  bottom: 120px; /* was too low, pulling it UP */
 
 
 /* PROGRESS TRACK (background) */
