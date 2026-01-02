@@ -108,9 +108,9 @@ export function Contact() {
             viewport={{ once: true }}
             className="flex justify-center lg:justify-end"
           >
-            <div className="p-12 rounded-2xl bg-white/60 dark:bg-white/5
-                            border border-gray-300 dark:border-white/10
-                            text-center max-w-md w-full">
+            <div className="p-16 rounded-2xl bg-white/60 dark:bg-white/5
+                border border-gray-300 dark:border-white/10
+                text-center max-w-lg w-full">
               <h4 className="text-2xl dark:text-white mb-4">
                 Open for Opportunities 🚀
               </h4>

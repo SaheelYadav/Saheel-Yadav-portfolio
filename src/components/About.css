@@ -88,7 +88,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: top center;
   filter: brightness(0.95);
 }
 
@@ -596,5 +596,27 @@
   .hobby {
     font-size: 0.85rem;
     padding: 0.6rem 1rem;
+  }
+}
+/* =========================================
+   ABOUT IMAGE – MOBILE HEAD CROP FIX
+   ========================================= */
+
+@media (max-width: 768px) {
+  .about-image img {
+    object-position: top center; /* ✅ keep head & hair */
+  }
+}
+
+/* Extra safety for very small phones */
+@media (max-width: 430px) {
+  .about-image img {
+    object-position: top center;
+    transform: scale(0.96); /* ✅ slight zoom-out */
+  }
+}
+@media (max-width: 430px) {
+  .about-image {
+    height: 320px; /* instead of 250px */
   }
 }
