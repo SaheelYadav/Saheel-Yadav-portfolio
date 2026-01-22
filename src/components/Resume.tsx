@@ -44,7 +44,7 @@ export function Resume() {
           viewport={{ once: true }}
           className="resume-download-top"
         >
-          <a href="/resume_1_.pdf" download className="download-btn">
+          <a href="/Saheel-CV.pdf" download className="download-btn">
             <Download size={20} />
             Download Resume
           </a>
