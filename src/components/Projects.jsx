@@ -9,15 +9,22 @@ const PROJECTS = [
     desc: "Real-time fraud detection using machine learning, graph analysis, and explainable AI.",
     ss: "/fraud-detection.jpg",
     tech: ["Python", "Machine Learning", "SHAP"],
-    /*live: "#",*/
     code: "https://github.com/SaheelYadav/AI-Powered-Transaction-Fraud-Detection-System",
   },
+
+  {
+    title: "📈 AI-Driven Real-Time Market Sentiment Analyzer",
+    desc: "Enterprise-grade platform using Google Gemini to analyze real-time stock sentiment, technical indicators, and generate Buy/Hold/Sell recommendations.",
+    ss: "/market-sentiment.jpg",
+    tech: ["React", "Node.js", "TypeScript", "Gemini AI", "Docker"],
+    code: "https://github.com/SaheelYadav/ai-market-sentinel",
+  },
+
   {
     title: "📄 ChaturGPT – Document Q&A System",
     desc: "AI-powered PDF summarization and question answering system using NLP.",
     ss: "/ChaturGpt.jpg",
     tech: ["Python", "NLP", "Streamlit"],
-    /*live: "#",*/
     code: "https://github.com/SaheelYadav/ChaturGPT-Multilingual-Document-Q-A-App",
   },
   {
@@ -25,7 +32,6 @@ const PROJECTS = [
     desc: "ML-based system to detect malicious network traffic using NSL-KDD dataset.",
     ss: "/Nids.jpg",
     tech: ["Python", "Machine Learning", "Cybersecurity"],
-    /*live: "#",*/
     code: "https://github.com/SaheelYadav/AI-ML-Based-Network-Intrusion-Detection-System",
   },
   {
@@ -33,7 +39,6 @@ const PROJECTS = [
     desc: "Face recognition based automated attendance system using computer vision.",
     ss: "/facerecognition.jpg",
     tech: ["Python", "OpenCV"],
-    /*live: "#",*/
     code: "https://github.com/SaheelYadav/Face-Recognition",
   },
 ];

@@ -61,10 +61,9 @@ export function Experience() {
 
       {/* ================= AI INTERN ================= */}
       <div className="experience-block">
-
         <div className="experience-title-glass">
-          <h3>AI Developer Intern </h3>
-          <h3> Summer of AI (Swecha / ViswamAI)</h3>
+          <h3>AI Developer Intern</h3>
+          <h3>Summer of AI (Swecha / ViswamAI)</h3>
           <p>May 2025 – Jun 2025</p>
         </div>
 
@@ -113,10 +112,10 @@ export function Experience() {
 
       {/* ================= DATA ASSOCIATE ================= */}
       <div className="experience-block">
-
         <div className="experience-title-glass">
-          <h3>Data Associate L1 Intern </h3>          <h3>Infotact Solutions</h3>
-          <p>Nov 2025 – Jan 2026</p>
+          <h3>Data Associate L1 Intern</h3>
+          <h3>Infotact Solutions</h3>
+          <p>Nov 2025 – Feb 2026</p>
         </div>
 
         <div className="timeline-container">
@@ -144,25 +143,28 @@ export function Experience() {
             </div>
           </div>
 
+          {/* ===== Project 1 ===== */}
           <div className="timeline-item left">
             <Dot i={6} />
-            <div className={`experience-card ${activeIndex === 6 ? "active" : ""}`}>
-              Improved reproducibility, documentation, and production-readiness
-              of ML workflows.
+            <div className={`experience-card highlight ${activeIndex === 6 ? "active" : ""}`}>
+              Built an <strong>AI-Driven Real-Time Market Sentiment Analyzer</strong>
+              using Google Gemini 2.0 Flash, combining live market data, technical
+              indicators (RSI, SMA, EMA), and AI-based news sentiment to generate
+              Buy/Hold/Sell recommendations through an interactive React dashboard.
             </div>
           </div>
 
-          {/* ✅ 4th CARD (RESTORED + FINAL) */}
+          {/* ===== Project 2 ===== */}
           <div className="timeline-item right">
             <Dot i={7} />
             <div className={`experience-card highlight ${activeIndex === 7 ? "active" : ""}`}>
-              Actively contributing to an AI-powered{" "}
-              <strong>Transaction Fraud Detection System</strong>, focusing on
-              anomaly detection and real-time analysis.
+              Developed an <strong>AI-Powered Transaction Fraud Detection System</strong>
+              leveraging Isolation Forest, XGBoost, Graph Neural Networks, and SHAP
+              to detect anomalies, explain fraud risk, visualize transaction
+              networks, and generate Suspicious Activity Reports (SARs).
             </div>
           </div>
 
-          <div className="timeline-ongoing">Ongoing</div>
         </div>
       </div>
 

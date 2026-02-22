@@ -5,6 +5,12 @@ import "./Certificates.css";
 const CERTS = {
   tech: [
     {
+      title: " Artificial Intelligence & Machine Learning - AICTE ",
+      org: "IBM - Skills Build",
+      date: "2025",
+      img: "/certs/ibm2.png",
+    },
+    {
       title: "AI Developer - (Intern Summer of AI)",
       org: "ViswamAI",
       date: "2025",

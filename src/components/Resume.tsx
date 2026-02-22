@@ -144,6 +144,7 @@ export function Resume() {
               "- Network Intrusion Detection System (NSL-KDD)",
               "- Face Recognition Based Attendance System",
               "- Smart Cart Predictor (Amazon Hackathon)",
+              "- AI-Powered Real-Time Market Sentiment Analyzer",
             ].map((project, i) => (
               <motion.li key={i}>{project}</motion.li>
             ))}
